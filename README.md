@@ -1,5 +1,16 @@
 # SaldeoSMART Integration with Next.js
+## Configuration
+Run ```bash npm install```
 
+Configure the .env.local File
+
+```bash
+echo "SALDEO_API_URL=https://api.saldeosmart.pl/api/xml/1.0" > .env.local
+echo "USERNAME=your_username" >> .env.local
+echo "API_TOKEN=your_api_token" >> .env.local
+```
+
+And you are redy :)
 ## Application Description
 
 This application is designed to integrate with SaldeoSMART API, enabling seamless interactions such as adding documents, fetching companies, and fetching contractors. It is built using Next.js and utilizes the Axios library for making HTTP requests and the js2xmlparser library for XML handling. The integration supports both direct API calls and automation workflows using Zapier, allowing for efficient data management and task automation in various business processes.
