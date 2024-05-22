@@ -33,5 +33,5 @@ module.exports = {
   addDocument,
   getCompanies,
   getContractors,
-  // dodaj inne metody tutaj
+  // other methods from api saldeo
 };
